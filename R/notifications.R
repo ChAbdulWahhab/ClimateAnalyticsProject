@@ -14,7 +14,7 @@ send_alert_notification <- function(message) {
     return()
   }
 
-  print("📢 " + message)
+  print(paste0("📢 ", message))
 }
 
 data <- data.frame(
