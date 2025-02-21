@@ -9,6 +9,7 @@ This project is an interactive climate data analysis platform built in **R**. It
 ```
 ClimateAnalyticsProject/
 ├── app/
+│   ├── app.R                # Main entry point for the Shiny application
 │   ├── global.R             # Global configurations and package loading
 │   ├── ui.R                 # User Interface definitions with authentication
 │   └── server.R             # Server logic handling app functionalities
@@ -23,7 +24,7 @@ ClimateAnalyticsProject/
 │   ├── utils.R              # Utility functions
 │   └── visualization.R      # Visualization functions
 ├── docs/
-│   ├── README.md            # This file
+│   ├── README.md            # Project documentation and usage guide
 │   └── design_document.md   # Detailed design and architecture documents
 ├── tests/
 │   ├── test_data_ingestion.R  # Unit tests for data ingestion module
