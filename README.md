@@ -1,7 +1,3 @@
-Here’s your README in a proper format:  
-
----
-
 # Climate Change Data Analysis
 
 ## Overview  
